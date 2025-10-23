@@ -1,0 +1,37 @@
+{
+  "funcionarios": [
+    { "id": 1, "nomeCompleto": "usuario01", "cpf": "1", "telefoneCelular": "1", "email": "111111111"}
+  ],
+  "clientes": [
+    { "id": 1, "nomeCompleto": "usuario01", "cpf": "1", "telefoneCelular": "1", "email": "111111111","dispositivos":[{
+        "idDispositivo1": 1,
+        "idDispositivo2": 2}
+    ]}
+  ],
+"dispostivos":[
+    {
+        "id": 1, "idMarca": 1, "idModelo": 1, "ano": ""
+    }
+],
+"modelos": [
+    {
+        "id": 1, "idMarca": 1, "nomeModelo": ""
+    }
+],
+"marcas":[
+    {
+        "id": 1, "nomeMarca": ""
+    }
+],
+"tipos":[
+    {
+    "id": 1, "nomeTipo": ""}
+],
+"produtos":[
+    {
+        "id": 1, "nomeProduto": "", "preco": 0, "idMarca": 1, "idTipo": 1, "cor": "", "quantidade": 1
+    }
+],
+"consertos":[{
+    "id": 1, "idCliente": 1, "idDispositivo": 1, "idFuncionarioResponsavel": 1, "observacoes": "", "valorConserto": 1, "dataEsperada": ""
+}   ]}
