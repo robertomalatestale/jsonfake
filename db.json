@@ -22,16 +22,5 @@
     {
         "id": 1, "nomeMarca": ""
     }
-],
-"tipos":[
-    {
-    "id": 1, "nomeTipo": ""}
-],
-"produtos":[
-    {
-        "id": 1, "nomeProduto": "", "preco": 0, "idMarca": 1, "idTipo": 1, "cor": "", "quantidade": 1
-    }
-],
-"consertos":[{
-    "id": 1, "idCliente": 1, "idDispositivo": 1, "idFuncionarioResponsavel": 1, "observacoes": "", "valorConserto": 1, "dataEsperada": ""
-}   ]}
+]}
+
